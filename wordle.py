@@ -38,7 +38,7 @@ while playing:
         guess = input("input your guess:  ")
         lettercheck(word , guess)
     
-    replay = input("would you like to play again? (Y/N):  ")
+    replay = input("would you like to play again? (Y/N):  ")   #replay
     if replay == "N":
         playing = False
 
